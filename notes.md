@@ -2,7 +2,7 @@
 
 
 ## Branch protection rules
-Branch protection rules allow us to enforce workflows to prevent unwelcome things happening on our repositories. For example, we may wish to have make sure that any code entering the main branch has been approved as part of a pull request, that all our tests are passing, or that our code meets style guidlines. In basic terms, we are trying to ensure our code is of a high quality by automatically enforcing the rules so we don't forget.
+Branch protection rules allow us to enforce workflows to prevent unwelcome things happening on our repositories. For example, we may wish to have make sure that any code entering the main branch has been approved as part of a pull request, that all our tests are passing, or that our code meets style guidelines. In basic terms, we are trying to ensure our code is of a high quality by automatically enforcing the rules so we don't forget.
 
 
 ## Preventing direct push to main
@@ -22,7 +22,7 @@ To test this, attempt to push a change directly to main. It should be blocked.
 GitHub Actions allow users to create custom workflows hooked into your GitHub repos. This is really useful for CI/CD type activities, such as running test suites or building code.
 
 
-To demonstrate the capablities of GitHub actions, we are going to create a scenario where we ensure tests are passing before merging into the main branch:
+To demonstrate the capabilities of GitHub actions, we are going to create a scenario where we ensure tests are passing before merging into the main branch:
 
 1. Create a new branch for the changes.
 2. Copy the below text into an action definition yaml file in this repo, at `.github/workflows/run_tests.yaml`
