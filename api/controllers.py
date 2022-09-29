@@ -22,7 +22,8 @@ def post_items():
 @inventory.route("/", methods=['GET'])
 def get_inventory():
     # Return the list of items
-    # Return the item name and total quantity
+    # Return the item name and total quantity test
+    
 
     pipeline = [
 
